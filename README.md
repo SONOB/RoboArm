@@ -28,6 +28,14 @@ $ cd Adafruit_Python_PCA9685
 
 $ sudo python3 setup.py install
 
+추가적으로 아래 파일들을 설치해야합니다.
+
+$ sudo pip install numpy
+
+$ sudo pip install torch
+
+$ sudo pip install opencv-python
+
 로봇암의 경우 3D프린터로 인쇄하여 사용했습니다.
 
 팔의 각도는 물건 분류에 따른 위치선정 이외에 자동으로 위치를 잡는게 아니기 때문에 각 설정이 따로 필요 합니다.
