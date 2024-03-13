@@ -4,7 +4,7 @@ import cv2
 import Adafruit_PCA9685
 import time
 
-model = torch.hub.load('ultralytics/yolov5', 'custom', path='학습파일이 있는 경로/robox/best.pt')
+model = torch.hub.load('ultralytics/yolov5', 'custom', path='학습파일이 있는 경로/robox/best.pt', force_reload=True)
 
 robot_handle=Adafruit_PCA9685.PCA9685()
 servoMin=150
